@@ -10,3 +10,4 @@ Unzip, `cd mfm-toolkit`, and run Python from this folder (helpers import `mfm`).
 - `cta_strip.py` — stamp a CTA strip onto an existing slide.
 - `sleep_pdf_build.py` — reportlab lead-magnet PDF in the locked black/gold template.
 - Fonts: Anton (headlines), Raleway (body), Comic Neue (dialogue). Use "·" not "→" (Raleway lacks the arrow glyph).
+- `stories.py` — 1080x1920 Instagram Story builder (`story(out, fn, img_or_pair, fy, kicker, lines, sub, band)`): gold kicker pill, Anton headline, scene band in the middle, empty dark area at the bottom for the IG sticker. 2 stories a day: AM interactive (poll/quiz/slider/questions), PM push to that day's post or a keyword reply.
