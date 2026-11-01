@@ -1,0 +1,21 @@
+{
+  "about": "MFM theme music library. Royalty-free instrumentals made for @melaninfitmen. The Sunday/Wednesday build picks a track per post by theme before generating anything new.",
+  "themes": {
+    "cookout-food-debate": "upbeat feel-good soul / hip hop with horns, ~90-100 bpm (fish fry, cookout, Be Honest food debates, family humor)",
+    "cold-morning-walk": "warm, slow acoustic piano + soft strings, ~75 bpm (walks, cold mornings, quiet discipline)",
+    "sleep-body-facts": "calm ambient lo-fi, soft keys, ~70 bpm (sleep, body/science facts, Do this / Your body does this)",
+    "family-holiday": "warm gospel-tinged soul, organ + claps, ~90 bpm (Thanksgiving, Sunday dinner, Your Son Is Watching, Dear Dad)",
+    "training-motivation": "steady motivational hip hop, punchy drums, ~95 bpm (lifting, Couch Dad Asks, workouts)"
+  },
+  "tracks": [
+    {
+      "file": "tracks/soul-upbeat-cookout-01.mp3",
+      "themes": ["cookout-food-debate", "training-motivation"],
+      "source": "vidIQ vidiq_generate_music, 2026-11-01",
+      "prompt": "uplifting soulful hip hop instrumental, warm soul sample feel, bright horns and piano, steady head-nod drums, 90 bpm, feel-good family cookout vibe",
+      "duration_s": 59.1,
+      "good_starts_s": [3, 11, 19, 27, 35, 43],
+      "used_on": ["2026-11-02-am", "2026-11-02-pm", "2026-11-03-am", "2026-11-03-pm", "2026-11-04-am", "2026-11-04-pm"]
+    }
+  ]
+}
