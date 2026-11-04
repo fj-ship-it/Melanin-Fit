@@ -78,10 +78,12 @@
       "notes": "quiet intro 0-9s; dip at 30-37s",
       "used_on": [
         "2026-11-05-am",
+        "2026-11-06-am",
         "2026-11-08-am"
       ],
       "used_starts": {
         "2026-11-05-am": 10,
+        "2026-11-06-am": 15,
         "2026-11-08-am": 40
       }
     },
@@ -101,12 +103,10 @@
       ],
       "notes": "builds from soft intro; full from ~10s; fades after 48s",
       "used_on": [
-        "2026-11-06-am",
         "2026-11-08-pm"
       ],
       "used_starts": {
-        "2026-11-06-am": 10,
-        "2026-11-08-pm": 20
+        "2026-11-08-pm": 26
       }
     }
   ]
