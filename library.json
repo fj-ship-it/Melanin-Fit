@@ -10,12 +10,104 @@
   "tracks": [
     {
       "file": "tracks/soul-upbeat-cookout-01.mp3",
-      "themes": ["cookout-food-debate", "training-motivation"],
+      "themes": [
+        "cookout-food-debate",
+        "training-motivation"
+      ],
       "source": "vidIQ vidiq_generate_music, 2026-11-01",
       "prompt": "uplifting soulful hip hop instrumental, warm soul sample feel, bright horns and piano, steady head-nod drums, 90 bpm, feel-good family cookout vibe",
       "duration_s": 59.1,
-      "good_starts_s": [3, 11, 19, 27, 35, 43],
-      "used_on": ["2026-11-02-am", "2026-11-02-pm", "2026-11-03-am", "2026-11-03-pm", "2026-11-04-am", "2026-11-04-pm"]
+      "good_starts_s": [
+        3,
+        11,
+        19,
+        27,
+        35,
+        43
+      ],
+      "used_on": [
+        "2026-11-02-am",
+        "2026-11-02-pm",
+        "2026-11-03-am",
+        "2026-11-03-pm",
+        "2026-11-04-am",
+        "2026-11-04-pm",
+        "2026-11-07-pm"
+      ]
+    },
+    {
+      "file": "tracks/soulfunk-cookout-02.wav",
+      "themes": [
+        "cookout-food-debate"
+      ],
+      "source": "vidIQ vidiq_generate_music, 2026-11-04",
+      "prompt": "feel-good soul funk instrumental, playful and upbeat, bright horn section, Rhodes electric piano, warm bass guitar, crisp head-nod drums, 96 bpm, instrumental",
+      "duration_s": 56.6,
+      "good_starts_s": [
+        0,
+        10,
+        20,
+        30,
+        36
+      ],
+      "used_on": [
+        "2026-11-05-pm",
+        "2026-11-06-pm",
+        "2026-11-07-am"
+      ],
+      "used_starts": {
+        "2026-11-05-pm": 0,
+        "2026-11-06-pm": 20,
+        "2026-11-07-am": 30
+      }
+    },
+    {
+      "file": "tracks/hiphop-training-01.wav",
+      "themes": [
+        "training-motivation"
+      ],
+      "source": "vidIQ vidiq_generate_music, 2026-11-04",
+      "prompt": "steady motivational hip hop instrumental, confident and focused, punchy drums, deep bass, bright piano chords, light strings, 94 bpm, instrumental",
+      "duration_s": 60.6,
+      "good_starts_s": [
+        10,
+        15,
+        40,
+        44
+      ],
+      "notes": "quiet intro 0-9s; dip at 30-37s",
+      "used_on": [
+        "2026-11-05-am",
+        "2026-11-08-am"
+      ],
+      "used_starts": {
+        "2026-11-05-am": 10,
+        "2026-11-08-am": 40
+      }
+    },
+    {
+      "file": "tracks/gospel-family-01.wav",
+      "themes": [
+        "family-holiday"
+      ],
+      "source": "vidIQ vidiq_generate_music, 2026-11-04",
+      "prompt": "warm gospel soul instrumental, uplifting family gathering feel, Hammond organ, piano, hand claps, soft bass, gentle drums, 88 bpm, instrumental",
+      "duration_s": 58.9,
+      "good_starts_s": [
+        10,
+        20,
+        26,
+        32
+      ],
+      "notes": "builds from soft intro; full from ~10s; fades after 48s",
+      "used_on": [
+        "2026-11-06-am",
+        "2026-11-08-pm"
+      ],
+      "used_starts": {
+        "2026-11-06-am": 10,
+        "2026-11-08-pm": 20
+      }
     }
   ]
 }
