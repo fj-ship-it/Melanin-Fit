@@ -32,8 +32,14 @@
         "2026-11-03-pm",
         "2026-11-04-am",
         "2026-11-04-pm",
-        "2026-11-07-pm"
-      ]
+        "2026-11-07-pm",
+        "2026-11-09-pm",
+        "2026-11-11-am"
+      ],
+      "used_starts": {
+        "2026-11-09-pm": 19,
+        "2026-11-11-am": 35
+      }
     },
     {
       "file": "tracks/soulfunk-cookout-02.wav",
@@ -53,12 +59,16 @@
       "used_on": [
         "2026-11-05-pm",
         "2026-11-06-pm",
-        "2026-11-07-am"
+        "2026-11-07-am",
+        "2026-11-09-am",
+        "2026-11-10-pm"
       ],
       "used_starts": {
         "2026-11-05-pm": 0,
         "2026-11-06-pm": 20,
-        "2026-11-07-am": 30
+        "2026-11-07-am": 30,
+        "2026-11-09-am": 10,
+        "2026-11-10-pm": 36
       }
     },
     {
@@ -103,10 +113,34 @@
       ],
       "notes": "builds from soft intro; full from ~10s; fades after 48s",
       "used_on": [
-        "2026-11-08-pm"
+        "2026-11-08-pm",
+        "2026-11-11-pm"
       ],
       "used_starts": {
-        "2026-11-08-pm": 26
+        "2026-11-08-pm": 26,
+        "2026-11-11-pm": 10
+      }
+    },
+    {
+      "file": "tracks/lofi-sleep-body-01.wav",
+      "themes": [
+        "sleep-body-facts"
+      ],
+      "source": "vidIQ vidiq_generate_music, 2026-11-08",
+      "prompt": "calm lo-fi hip hop instrumental, soft piano and warm Rhodes keys, gentle drums, mellow bass, relaxed and curious mood, 80 bpm, instrumental",
+      "duration_s": 58.3,
+      "good_starts_s": [
+        11,
+        20,
+        26,
+        32
+      ],
+      "notes": "soft intro 0-10s; full from ~11s; short dips ~44-45s and ~49s",
+      "used_on": [
+        "2026-11-10-am"
+      ],
+      "used_starts": {
+        "2026-11-10-am": 11
       }
     }
   ]
