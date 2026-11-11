@@ -34,11 +34,15 @@
         "2026-11-04-pm",
         "2026-11-07-pm",
         "2026-11-09-pm",
-        "2026-11-11-am"
+        "2026-11-11-am",
+        "2026-11-14-am-trialA",
+        "2026-11-14-am-trialB"
       ],
       "used_starts": {
         "2026-11-09-pm": 19,
-        "2026-11-11-am": 35
+        "2026-11-11-am": 35,
+        "2026-11-14-am-trialA": 3,
+        "2026-11-14-am-trialB": 27
       }
     },
     {
@@ -61,14 +65,16 @@
         "2026-11-06-pm",
         "2026-11-07-am",
         "2026-11-09-am",
-        "2026-11-10-pm"
+        "2026-11-10-pm",
+        "2026-11-13-pm"
       ],
       "used_starts": {
         "2026-11-05-pm": 0,
         "2026-11-06-pm": 20,
         "2026-11-07-am": 30,
         "2026-11-09-am": 10,
-        "2026-11-10-pm": 36
+        "2026-11-10-pm": 36,
+        "2026-11-13-pm": 0
       }
     },
     {
@@ -89,12 +95,14 @@
       "used_on": [
         "2026-11-05-am",
         "2026-11-06-am",
-        "2026-11-08-am"
+        "2026-11-08-am",
+        "2026-11-15-pm"
       ],
       "used_starts": {
         "2026-11-05-am": 10,
         "2026-11-06-am": 15,
-        "2026-11-08-am": 40
+        "2026-11-08-am": 40,
+        "2026-11-15-pm": 44
       }
     },
     {
@@ -114,11 +122,13 @@
       "notes": "builds from soft intro; full from ~10s; fades after 48s",
       "used_on": [
         "2026-11-08-pm",
-        "2026-11-11-pm"
+        "2026-11-11-pm",
+        "2026-11-15-am-trialB"
       ],
       "used_starts": {
         "2026-11-08-pm": 26,
-        "2026-11-11-pm": 10
+        "2026-11-11-pm": 10,
+        "2026-11-15-am-trialB": 20
       }
     },
     {
@@ -137,10 +147,62 @@
       ],
       "notes": "soft intro 0-10s; full from ~11s; short dips ~44-45s and ~49s",
       "used_on": [
-        "2026-11-10-am"
+        "2026-11-10-am",
+        "2026-11-12-am-trialB",
+        "2026-11-13-am-trialA"
       ],
       "used_starts": {
-        "2026-11-10-am": 11
+        "2026-11-10-am": 11,
+        "2026-11-12-am-trialB": 20,
+        "2026-11-13-am-trialA": 26
+      }
+    },
+    {
+      "file": "tracks/lofi-sleep-body-02.mp3",
+      "themes": [
+        "sleep-body-facts"
+      ],
+      "source": "Higgsfield elevenlabs_music_v2_5, 2026-11-11 (vidIQ blocked the lo-fi prompt)",
+      "prompt": "Calm ambient lo-fi instrumental, warm and reflective, soft electric piano chords, mellow bass, gentle laid-back drums, 72 bpm (force_instrumental)",
+      "duration_s": 60.0,
+      "good_starts_s": [
+        12,
+        20,
+        28,
+        36,
+        44
+      ],
+      "notes": "quiet intro 0-11s; full from ~12s; ends ~55s",
+      "used_on": [
+        "2026-11-12-am-trialA",
+        "2026-11-13-am-trialB"
+      ],
+      "used_starts": {
+        "2026-11-12-am-trialA": 12,
+        "2026-11-13-am-trialB": 28
+      }
+    },
+    {
+      "file": "tracks/gospel-family-02.wav",
+      "themes": [
+        "family-holiday"
+      ],
+      "source": "vidIQ vidiq_generate_music, 2026-11-11",
+      "prompt": "Warm gospel-tinged soul, joyful Sunday family dinner feeling, Hammond organ, hand claps, bass guitar, soft piano, steady groove around 90 bpm, instrumental",
+      "duration_s": 62.5,
+      "good_starts_s": [
+        12,
+        20,
+        28,
+        36,
+        44
+      ],
+      "notes": "softer intro 0-11s; full from ~12s; fades after ~55s",
+      "used_on": [
+        "2026-11-15-am-trialA"
+      ],
+      "used_starts": {
+        "2026-11-15-am-trialA": 12
       }
     }
   ]
